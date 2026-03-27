@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authenticate - ShilpSutra</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>ShilpSutra</h1>
+                    <span>Parampara se Pramaan tak</span>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="heritage.html">Heritage Map</a>
+                    <a href="about.html">About Us</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="auth-container">
+                <h2>Check Craft Authenticity</h2>
+                <p>Upload a clear image of the handicraft to verify its authenticity.</p>
+
+                <div class="upload-box" id="uploadBox">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <p>Drag & Drop your image here or <br> Click to Browse</p>
+                    <input type="file" id="fileInput" accept="image/*" hidden>
+                    <img id="imagePreview" src="" alt="Preview">
+                </div>
+
+                <button id="verifyBtn" class="btn">Verify Authenticity</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ShilpSutra. Honoring Indian Craftsmanship.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Initialize specific page logic
+        document.addEventListener('DOMContentLoaded', () => {
+            // Logic is handled in global script, ensuring elements exist
+        });
+    </script>
+</body>
+
+</html>

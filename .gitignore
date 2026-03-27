@@ -1,0 +1,62 @@
+# ==========================
+# ShilpSutra .gitignore
+# ==========================
+
+# -------- Python --------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.whl
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# -------- Node.js --------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -------- Build outputs --------
+build/
+dist/
+out/
+
+# -------- IDE / Editor --------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+
+# -------- OS Files --------
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# -------- Logs --------
+logs/
+*.log
+
+# -------- Environment variables --------
+.env
+.env.local
+.env.*.local
+
+# -------- Misc --------
+*.bak
+*.tmp
+*.temp
